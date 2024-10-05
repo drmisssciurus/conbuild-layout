@@ -15,21 +15,34 @@
 				<div class="header__wrapper">
 					<div class="header__logo">
 						<!-- sprite -> logo.svg -->
+						<a href="/" class="header__logo">
+							<svg class="header__logo-image" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+								<use xlink:href="./public/images/sprite.svg#logo"></use>
+							</svg>
+              Hounter
+            </a>
+						 
 					</div>
 					<div class="header__links">
 						<nav>
-							<ul>
+							<ul class="header__links-wrapper">
 								<li class="header__link">
-									<a class="header__btn btn" href="#">About Us</a>
+									<a class="header__button button" href="#">About Us</a>
 								</li>
 								<li class="header__link">
-									<a class="header__btn btn" href="#">Article</a>
+									<a class="header__button button" href="#">Article</a>
 								</li>
 								<li class="header__link">
-									<a class="header__btn btn" href="#">Property</a>
+									<a class="header__button button" href="#">Property
+										<span>
+											<svg xmlns="http://www.w3.org/2000/svg" width="11" height="6">
+												<use xlink:href="./images/sprite.svg#arrow-right"></use>
+											</svg>
+										</span>
+									</a>
 								</li>
 								<li class="header__link">
-									<a class="header__btn btn" href="#">Sign Up!</a>
+									<a class="header__button button" href="#">Sign Up!</a>
 								</li>
 							</ul>
 						</nav>
